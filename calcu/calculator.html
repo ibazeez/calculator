@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- <script src="../Calculator/script.js"></script> -->
+    <!-- <link rel="shortcut icon" href="../Calculator/image/favicon1.ico"> -->
+    <!-- <link rel="stylesheet"href="C:\Zero to Mastery\Web_application\Calculator\calcu\style.css"/> -->
+    <link rel="stylesheet" href="C:\Zero to Mastery\Web_application\BasicProject1\NewProfiolio - edited\css\style.css">
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+     <!-------beging of header----------------------------------->
+     <!-- <header>
+         
+        <div class="container">
+            <div id="brading">
+                <img class="im" src="./img/MyLogo.jpg" alt="">
+            </div>
+            <nav>
+                <ul>
+   
+                    <li class="current"><a href="C:\Zero to Mastery\Web_application\BasicProject1\NewProfiolio - edited\project.html">PROJECT</a></li>
+                </ul>
+            </nav>
+        </header> -->
+       <!-------end of header----------------------------------->
+    <h1>Simple Basic Mathematics Calculator</h1>
+    <div id="calculator">
+    <div>
+        <tr>
+            <button id="inputLabel" onclick="GetNumber(this)">0</button><br/>  
+            <td><button  onclick="GetNumber(this)" style="background-color: green;">CE</button> </td>
+            <td><button  onclick="GetNumber(this)"style="background-color: #b38f00;">/</button>  </td>
+            <td><button  onclick="GetNumber(this)"style="background-color: #b38f00;">*</button>  </td>
+            <td><button  onclick="GetNumber(this)"style="background-color: #b38f00;">+</button>  </td>
+        </tr>
+        </div>
+        <div>
+        <tr>
+            <td><button  onclick="GetNumber(this)">1</button>  </td>
+            <td><button  onclick="GetNumber(this)">2</button>  </td>
+            <td><button  onclick="GetNumber(this)">3</button>  </td>
+            <td><button  onclick="GetNumber(this)"style="background-color: #b38f00;">-</button> </td>
+        </tr>
+    </div>
+    <div>
+        <tr> 
+            <td><button  onclick="GetNumber(this)">4</button></td>
+            <td><button  onclick="GetNumber(this)">5</button> </td>
+            <td><button  onclick="GetNumber(this)">6</button> </td>
+            <td><button  onclick="GetNumber(this)" style="background-color: #b38f00;">.</button> </td>
+            
+        </tr>
+    </div>
+    <div>
+        <tr>
+            <td><button  onclick="GetNumber(this)">7</button>  </td>
+            <td><button  onclick="GetNumber(this)">8</button>  </td>
+            <td><button  onclick="GetNumber(this)">9</button>  </td>
+            <td><button    onclick="GetNumber(this)">0</button>   </td>
+        
+        </tr>
+    </div>
+    <div>
+        <tr>
+           <td><button    onclick="GetNumber(this)">00</button>   </td>
+            <td><button    onclick="GetNumber(this)">000</button>   </td>
+            <td><button    onclick="GetNumber(this)" style= "width:180px; background-color: blue;">=</button>   </td>
+        </tr>
+    </div>
+    </div>
+</div>
+<script src="C:\Zero to Mastery\Web_application\Calculator\calcu\script.js"></script>
+</body>
+<script src="calculator.js"></script>
+</html>
